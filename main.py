@@ -49,4 +49,5 @@ class StarterApp(App):
 
 
 if __name__ == "__main__":
-	StarterApp().run()
+	app = StarterApp()
+	app.run()
